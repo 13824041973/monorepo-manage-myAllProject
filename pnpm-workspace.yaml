@@ -1,0 +1,2 @@
+packages:
+  - 'packages/**' # 如果你的项目都在 packages 目录下
