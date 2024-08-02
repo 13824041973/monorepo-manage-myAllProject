@@ -1,6 +1,7 @@
 import React from "react";
 import { RouteObject } from "react-router-dom";
 import Home from "../pages/home";
+import Feeds from "../pages/home/Feeds";
 
 interface LuyolGRouteObj {
 	title?: string;
@@ -15,8 +16,8 @@ export const router: Array<ZHRouter> = [
 		element: <Home />,
 		title: "首页",
 		children: [
-			{ path: "/", element: <div>推荐</div>, title: "推荐" },
 			{ path: "/follow", element: <div>关注</div>, title: "关注" },
+			{ path: "/", element: <Feeds />, title: "推荐" },
 			{ path: "/hot", element: <div>热榜</div>, title: "热榜" },
 			{ path: "/zvideo", element: <div>视频</div>, title: "视频" },
 		],

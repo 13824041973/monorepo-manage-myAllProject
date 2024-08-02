@@ -52,7 +52,7 @@ const MenuAlarm = () => (
 
 export default function Navigation({}: Props) {
 	return (
-		<div className="bg-white shadow w-screen h-13">
+		<div className="bg-white shadow h-13">
 			<div className="max-w-7xl min-w-6xl mx-auto my-0 flex justify-center h-full">
 				<div className="w-full flex justify-between items-center min-w-max">
 					<div className="flex items-center">
