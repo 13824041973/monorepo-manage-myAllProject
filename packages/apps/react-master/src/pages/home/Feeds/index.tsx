@@ -231,7 +231,7 @@ const useRefInsObjState = (ref: RefObject<HTMLDivElement>, path: string) => {
 					];
 					setList(listRef.current);
 					lockRef.current = true;
-				});
+				}).catch(err => {})
 			}
 		});
 		ref.current && intersectionObserver.observe(ref.current);
