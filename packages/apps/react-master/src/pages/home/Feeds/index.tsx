@@ -43,7 +43,7 @@ const RecommendData: FC<ItemProps> = ({ item }) => {
 				</a>
 			</div>
 			{/* 文章内容 */}
-			<div onClick={handleClick}>
+			<div onClick={handleClick} className="text-black">
 				{selected ? (
 					<div className="w-full flex flex-col justify-start">
 						<div className="flex flex-row m-2">
