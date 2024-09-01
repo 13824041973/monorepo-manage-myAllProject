@@ -14,6 +14,7 @@ module.exports = {
         '6xl': '68rem'
       },
       // 1.第一种修改颜色模式的操作：搭配index.css的给html定义变量，再在此处修改tailwind的变量取值
+      // 这样可以通过document.getElementsByTagName("html")[0].setAttribute('data-theme','dark')修改深夜白天颜色模式
       // colors: {
       //   black: "var(--black)",
       //   white: "var(--white)",
