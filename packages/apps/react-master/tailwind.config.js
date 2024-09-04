@@ -32,6 +32,24 @@ module.exports = {
       //     950: "var(--slate-950)"
       //   },
       // }
+
+      colors: {
+        black: "lyl(black)",
+        white: "lyl(white)",
+        slate: {
+          50: "lyl(slate50)",
+          100: "lyl(slate100)",
+          200: "lyl(slate200)",
+          300: "lyl(slate300)",
+          400: "lyl(slate400)",
+          500: "lyl(slate500)",
+          600: "lyl(slate600)",
+          700: "lyl(slate700)",
+          800: "lyl(slate800)",
+          900: "lyl(slate900)",
+          950: "lyl(slate950)"
+        },
+      }
     },
   },
   plugins: [],
