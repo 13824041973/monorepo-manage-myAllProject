@@ -14,8 +14,11 @@
         if (token) {
           jwt.verify(token, SALT, (err, data) => {
             if (err) {
+              console.log('@err', err);
               resolove({
-                status: 'failed'
+                // status: 'failed'
+                status: 'success',
+                msg: 'token过期'
               });
             } else {
               resolove({

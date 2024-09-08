@@ -18,6 +18,7 @@
 		"@xw/luyolg-cli": "workspace:^",
 		"@xw/luyolg-log": "workspace:^",
 		"axios": "^1.7.3",
+		"lodash": "^4.17.21",
 		"postcss-nested": "6.0",
 		"postcss-nesting": "10.2",
 		"react": "^18.3.1",
