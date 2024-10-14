@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearn_webpack=self.webpackChunklearn_webpack||[]).push([[274],{501:(e,n,l)=>{l.r(n),l.d(n,{default:()=>a});var t=function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",[e._v("Home2")])};t._withStripped=!0;const r={name:"home"};var s=(0,l(486).A)(r,t,[],!1,null,null,null);s.options.__file="src/vue-views/home.vue";const a=s.exports}}]);

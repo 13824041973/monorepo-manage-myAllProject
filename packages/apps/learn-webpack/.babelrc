@@ -1,0 +1,8 @@
+{
+	"presets": ["@babel/preset-env"],
+	"plugins": ["@babel/plugin-transform-runtime"]
+}
+
+// 只会将 ES6/7/8语法转换为ES5语法，但是对新api并不会转换 
+// 例如(promise、Generator、Set、Maps、Proxy等)
+// 可使用@babel/plugin-transform-runtime：处理async，await、import()等语法关键字的帮助函数
